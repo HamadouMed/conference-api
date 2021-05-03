@@ -1,0 +1,3 @@
+# on override le port par defaut de spring boot, qui est le port 8080
+server:
+  port: 5000
