@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class PersistenceConfiguration {
-
+/*
     @Value("${spring.datasource.username}")
     private String db_username;
 
@@ -25,6 +25,6 @@ public class PersistenceConfiguration {
         builder.username(db_username);
         builder.password(db_password);
         return builder.build();
-    }
+    }*/
 
 }
